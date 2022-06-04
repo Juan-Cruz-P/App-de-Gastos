@@ -28,42 +28,38 @@
 
         <!-- Agregar -->
         <div class="input-group-append">
-            <a id="agregar" class="btn btn-outline-secondary" type="button" onclick="agregar()">Agregar</a>
-        <!-- <button class="btn btn-outline-secondary" type="button" id="agregar">
-            <a onclick="agregar()">Agregar</a>
-        </button> -->
+            <a id="agregar" class="btn btn-outline-secondary" type="button" onclick="agregar('nombre-a', 'nombre'), agregar('gasto-a', 'gasto'), calcular('gasto','total','promedio')">Agregar</a>
         </div>
     </div>
 
     <!-- Lista -->
     <div id="list">
-        <!-- <table>
-            <tr><th>Nombre</th><th>Gasto</th></tr>
-            <tr><td id="lista-nombre"></td>
-                <td id="lista-gasto"></td"></tr>
-          </table> -->
-
         <table class="table">
         <thead><tr>
-            <th scope="col">#</th>
             <th scope="col">Nombre</th>
             <th scope="col">Gasto</th>
         </tr></thead>
         <!-- Tanda 1 -->
         <tbody><tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>183781</td>
-        </tr></tbody>
-        <!-- Tanda 2 -->
-        <tbody><tr>
-            <th scope="row"></th>
             <td id="nombre-a"></td>
             <td id="gasto-a"></td>
         </tr></tbody>
-
         </table>
     </div>
+
+    <div id="list">
+        <table class="table">
+        <thead><tr>
+            <th scope="col">Gasto Total</th>
+            <th scope="col">Aporte por persona</th>
+        </tr></thead>
+        <tbody><tr>
+            <td id="total"></td>
+            <td id="promedio"></td>
+        </tr></tbody>
+        </table>
+    </div>
+
 
     <!-- JavaScript -->
     <script src="./script.js"></script>
