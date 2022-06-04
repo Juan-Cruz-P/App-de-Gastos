@@ -1,0 +1,26 @@
+#cabeza {
+    text-align: center; 
+    background-color: #135CF7; 
+    color: white;
+}
+
+#agregar {
+    background-color: #135CF7; 
+    color: white;
+}
+
+#agregar:hover {
+    background-color: #B22534;
+    transition: 0.4s;
+}
+
+#agregar:active {
+    background-color: #B22534;
+}
+
+#agregar:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #EEA6AD;
+    transition: 0.4s;
+}
