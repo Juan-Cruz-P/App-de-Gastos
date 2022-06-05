@@ -1,11 +1,6 @@
-#cabeza {
+#agregar, #titular {
+    background-color: #135CF7; 
     text-align: center; 
-    background-color: #135CF7; 
-    color: white;
-}
-
-#agregar {
-    background-color: #135CF7; 
     color: white;
 }
 
